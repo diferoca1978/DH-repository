@@ -1,0 +1,8 @@
+Crear una función Juego de trompito, que reciba dos parámetros:
+a. El primero, un array con las siguientes cadenas de texto: “Toma 1” ,”Toma 2”,“Pon 1”, “Pon 2”, “Todos ponen”, “Toma todo”
+
+b. El segundo parámetro será la cantidad de vueltas del trompito comprendidas entre 2 y 6.
+La función tendrá como responsabilidad generar un número aleatorio comprendido entre 0 y 5. 
+
+En función del resultado obtenido, se le debe devolver al usuario alguno de los mensajes suministrados por el trompito. Por ejemplo: “Toma todo”.
+Pista: investigar sobre las funcionesMath.random() y Math.floor().

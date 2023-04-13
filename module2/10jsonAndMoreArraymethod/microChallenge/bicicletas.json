@@ -1,0 +1,76 @@
+
+[
+  {
+
+  "id":1,
+  "Marca":"Fierce",
+  "Modelo":"Sunchine",
+  "Rodado":16,
+  "anio":2021,
+  "color":"Celeste",
+  "pesokg":17,
+  "tipo":"Paseo",
+  "precio":800,
+  "vendida":true
+
+  },
+  {
+
+  "id":2,
+  "Marca":"Shifter",
+  "Modelo":"ruta",
+  "Rodado":26,
+  "anio":2022,
+  "color":"amarillo",
+  "pesokg":13,
+  "tipo":"Triatlon",
+  "precio":2500,
+  "vendida":true
+
+  },
+  {
+
+  "id":3,
+  "Marca":"Olmo",
+  "Modelo":"Regal",
+  "Rodado":26,
+  "anio":2020,
+  "color":"negro",
+  "pesokg":15,
+  "tipo":"Montanera",
+  "precio":1500,
+  "vendida":true
+
+  },
+  {
+
+  "id":"4",
+  "Marca":"SPL",
+  "Modelo":"Techno",
+  "Rodado":28,
+  "anio":2022,
+  "color":"Naranja",
+  "pesokg":17,
+  "tipo":"Retro",
+  "precio":1200,
+  "vendida":false
+
+  },
+  {
+
+  "id":5,
+  "Marca":"Halley",
+  "Modelo":"FM18F29AM210",
+  "Rodado":26,
+  "anio":2019,
+  "color":"rojo",
+  "pesokg":16,
+  "tipo":"Retro",
+  "precio":1200,
+  "vendida":false
+
+  }
+]
+
+
+  
