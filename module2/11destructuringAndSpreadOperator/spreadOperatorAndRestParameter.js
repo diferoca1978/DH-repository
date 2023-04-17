@@ -41,11 +41,11 @@ function myFunction (param1, param2, ...others) {
 console.log(myFunction(5,6,7,8,9,10));
 
 
-// Rest parameter with function that receive any quantity if numbers
+// Rest parameter with function that receive any quantity of numbers
 
 function addition (...numbers) { // through this the function can receive any number as a parameter.
 
-  return numbers.reduce((acum, current) => acum += current)
+  return numbers.reduce((acum, current) => acum + current)
 
 }
 console.log(addition(2, 4, 6));

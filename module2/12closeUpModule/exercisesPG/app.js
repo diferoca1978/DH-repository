@@ -46,11 +46,11 @@ let concesionaria = {
 //console.log(concesionaria.venderAuto('')); 
 //console.log(concesionaria.autosParaLaVenta());
 //console.log(concesionaria.autosNuevos()); 
-//console.log(concesionaria.listaDeVentas()); 
+console.log(concesionaria.listaDeVentas()); 
 //console.log(concesionaria.totalDeVentas()); 
-let persona = {nombre: 'Juan',capacidadDePagoEnCuotas: 20000,capacidadDePagoTotal: 200000}
+//let persona = {nombre: 'Juan',capacidadDePagoEnCuotas: 20000,capacidadDePagoTotal: 200000}
 /*let coche = {marca : 'Toyota',modelo : 'Corolla',precio : 100000,cuotas : 14,}
 console.log(concesionaria.puedeComprar(coche,persona));*/
-console.log(concesionaria.autosQuePuedeComprar(persona)); 
+//console.log(concesionaria.autosQuePuedeComprar(persona)); 
 
 

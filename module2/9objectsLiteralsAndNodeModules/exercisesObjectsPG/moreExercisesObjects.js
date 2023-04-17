@@ -133,7 +133,7 @@ function phoneticLookup(val) {
   // TODO:  Switch statement refactor by use an object!!!
 
 function phoneticLookup(val) {
-    let result = '';
+    
     let lookUp = {
       "alpha": "Adams",
       "bravo": "Boston",
@@ -143,11 +143,10 @@ function phoneticLookup(val) {
       "foxtrot": "Frank"
     }
   let checkVal = lookUp[val];
-  result = checkVal;
-  return result;
+  return checkVal;
   }
   
-  console.log(phoneticLookup("charlie"));
+  console.log(phoneticLookup("bravo"));
 
 //* execrcise profile lookup.
 // here we have an array of objects, so We need to access at their information onto the array and sub-objects.
