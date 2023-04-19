@@ -13,4 +13,4 @@ function checkSign(num) {
   : 'zero';
   
   }
-  checkSign(10);
+  console.log(checkSign(0)); 
