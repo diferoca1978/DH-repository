@@ -4,7 +4,7 @@ let edad = 35
 let validacion = (edad > 40) ? 'eres mayor de 40' : (edad < 40) ? 'eres menor de 40' : 'tienes 40';
 console.log(validacion);
 
-//* this is de correct form to do that whe we need to use nested conditions ( nested if)
+//* this is the correct form to do that when we need to use nested conditions ( nested if)
 
 function checkSign(num) {
 
