@@ -1,15 +1,16 @@
  let dataHamburgers = [
-  { burger : 'steakMeat', price : 1800},
-  { burger : 'chicken', price : 1500},
-  { burger : 'vegetarian', price : 1200},
- 
-  { add : 'ham', price : 30},
-  { add : 'cheese', price : 25},
-  { add : 'mayonnaise', price : 5},
-  { add : 'mustard', price : 5},
-  { add : 'tomato', price : 15},
-  { add : 'lettuce', price : 15},
-  { add : 'onion', price : 10},
+  { 'steakMeat': 1800,
+   'chicken': 1500,
+   'vegetarian': 1200,
+  },
+  {  'ham': 30 ,
+     'cheese':25,
+     'mayonnaise':5,
+     'mustard':5,
+     'tomato':15,
+     'lettuce':15,
+     'onion': 10
+  }
 ]
 
 module.exports = dataHamburgers;

@@ -1,4 +1,4 @@
-//* Showing tghe list of items
+//* Showing the list of items
 
 let listaDeSuperMercado = [
   'Bife de chorizo', 
