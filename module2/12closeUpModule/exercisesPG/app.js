@@ -43,7 +43,7 @@ let concesionaria = {
 
 
 }
-//console.log(concesionaria.venderAuto('')); 
+//console.log(concesionaria.venderAuto(''));
 //console.log(concesionaria.autosParaLaVenta());
 //console.log(concesionaria.autosNuevos()); 
 console.log(concesionaria.listaDeVentas()); 
