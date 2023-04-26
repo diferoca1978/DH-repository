@@ -4,7 +4,8 @@
 //* fourth step: we have to call the module (path) through a variable. It provide us utilities for working with file and directory paths.
 /* optional: we can use (nodemon) is a tool that helps develop Node.js based applications by automatically restarting the node application when file changes in the directory are detected. Through these command we can install it aS a global (npm install -g nodemon) or as a development dependency (npm install --save-dev nodemon) onto our terminal. If we use the last method we need to write a script onto package.json file like this /*( "scripts": {
     "start": "nodemon app.js"
-  })*/
+  })
+  Then we have to start nodemon through the command (npm start) onto the terminal*/
 
 const express = require("express");
 const app = express();
@@ -39,3 +40,7 @@ const product = {
 app.get("/product", (req, res) => {
   res.send(product);
 });
+
+//* finally if we need to leave our public resourses directory as a estatic we must use the next line of code
+const publicPath = path.resolve(__dirname, "./public");
+app.use(express.static(publicPath));
