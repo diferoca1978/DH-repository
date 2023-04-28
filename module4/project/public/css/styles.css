@@ -5,6 +5,13 @@
   font-style: bold;
 }
 
+@font-face {
+  font-family: 'mandalore' ;
+  src: url(/fonts/mandalore.ttf);
+  font-weight: bolder;
+  font-style: bold;
+}
+
 body {
   background-image: url(/img/deathStarDestroyed.jpg);
   background-size: cover;
@@ -12,6 +19,21 @@ body {
 h1 {
   font-family: 'Starjedi',sans-serif ;
   font-size: 70px;
+  font-weight: lighter;
   color: yellow;
   text-align: center;
+}
+h2 {
+  font-family: 'mandalore',sans-serif;
+  font-size: 40px;
+  font-weight: lighter;
+  line-height: 48px;
+  color: azure;
+}
+strong em {
+  font-family: 'mandalore',sans-serif;
+  font-size: 20px;
+  font-weight: lighter;
+  line-height: 28px;
+  color: azure;
 }
