@@ -14,26 +14,73 @@
 
 body {
   background-image: url(/img/deathStarDestroyed.jpg);
-  background-size: cover;
+  background-size:auto;
 }
-h1 {
-  font-family: 'Starjedi',sans-serif ;
+img {
+  width: 100%;
+}
+h1.title {
+  font-family: 'Starjedi', 'sans-serif' ;
   font-size: 70px;
   font-weight: lighter;
   color: yellow;
   text-align: center;
 }
-h2 {
-  font-family: 'mandalore',sans-serif;
-  font-size: 40px;
-  font-weight: lighter;
-  line-height: 48px;
+h1 {
+  font-family: 'mandalore', 'sans-serif';
   color: azure;
+
 }
-strong em {
-  font-family: 'mandalore',sans-serif;
-  font-size: 20px;
-  font-weight: lighter;
-  line-height: 28px;
-  color: azure;
+/*div.container {
+  width: 80vw;
+  padding: 15px;
+  border: 5px;
+  box-sizing: border-box;
+}*/
+div.img {
+  width: 23vw;
+  float: left;
+  margin-bottom: 10px;
+}
+div.detail {
+  padding-left: 5%;
+  width: 65%;
+  float: left;
+  
+}
+p {
+  width: 90%;
+  max-width: 900px;
+  color: rgb(236, 203, 95);
+  font-family: 'mandalore', 'sans-serif';
+  font-size: 1.3rem;
+  padding: 15px;
+  border: solid 1px rgb(236, 203, 95);
+}
+
+/* The Media Queries below allow us make rules to the behave of our site can change depend on size of the device where we are watching. So, bellow we can find the standard values sizes from min to max where should change our site in theory.*/
+
+@media (min-width: 576px ) { 
+  p {
+    color: rgb(125, 166, 243);
+    border: solid 0.5px rgb(125, 166, 243);
+  }
+}
+@media (min-width: 768px ) { 
+  p {
+    color: rgb(2, 126, 175);
+    border: solid 0.5px rgb(2, 126, 175);
+  }
+}
+@media (min-width: 992px ) { 
+  p {
+    color: rgb(143, 235, 235);
+    border: solid 0.5px rgb(143, 235, 235);
+  }
+}
+@media (min-width: 1200px ) { 
+  p {
+    color: azure;
+    border: solid 0.5px rgb(235, 241, 241);
+  }
 }
