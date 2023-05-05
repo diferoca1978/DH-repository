@@ -1,0 +1,83 @@
+
+body {
+  background-color: azure;
+}
+
+/* Flex box to reorder and read the phrase from bottom to up. 
+
+.frase-cortazar { 
+  display: flex;
+  flex-direction: column-reverse;
+}*/
+
+/* Flex box to reorder an read the phrase that is backwards.
+
+.frase { 
+  display: flex;
+  width: 350px;
+  background-color: aquamarine;
+  padding: 20px;
+  border: solid 1px black;
+  margin: auto;
+  flex-direction: row-reverse;
+}*/
+
+/* Flex box to redistribute the space arround the links
+.nav-bar{
+  display: flex;
+  justify-content: space-around;
+}
+
+.enlaces {
+  display: flex; 
+}*/
+
+/* Flex box to aling items.
+
+.juego-dardos {
+  display: flex;
+  justify-content: center; /* With this property we can aling items in the main-axis 
+  align-items: center; /* With this property we can aling items in the cross-axis 
+}*/
+
+.flex-container {
+  border: solid 2px coral;
+  background: #ccc;
+  padding: 20px;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap; /* This property with te value (Wrap) allow us aling the items not only in the main axis otherwise also allow that the container respect the size of items */
+  justify-content: space-around; 
+
+}
+
+.box {
+  border:solid 1px grey;
+  background-color: cadetblue;
+  color: black;
+  text-align: center;
+  font-weight: bold;
+  width: 120px;
+  height: 40px;
+  line-height: 20px;
+  margin: 5px;   
+}
+
+.surf-en-el-mar {
+  display: flex;
+  width: 100%;
+}
+
+.tabla {
+order: -1; /* With the order property we said to the class .tabla that get the first place in the row */
+}
+
+.tetris {
+  display: flex;
+  height: 60%;
+}
+
+.pieza-tetris {
+ align-self: flex-end;
+}
