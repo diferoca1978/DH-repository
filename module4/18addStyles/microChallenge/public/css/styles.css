@@ -1,0 +1,48 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+  background-color: #EAC926;
+}
+
+.burger-menu {
+  background-color: #03264C;
+  text-align: center;
+  color: #ffffff;
+  max-width: 15px;
+  padding: 15px;
+  border-radius: 7px;
+  margin: auto;
+}
+
+footer .center {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.pago {
+  text-align: center;
+  font-weight: 400;
+}
+
+.color {
+  color: #1259C3;
+}
+
+p {
+  font-size: 18px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 16px;
+}
+
+h4 {
+  font-size: 12px;
+}
+

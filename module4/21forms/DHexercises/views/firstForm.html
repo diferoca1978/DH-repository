@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>First form</title>
+</head>
+<body>
+  <form action="/register" method="post">
+
+    <p><label for="nombre">Nombre</label>
+      <input type="text" name="nombre" id="nombre" required>
+    </p>
+    <p><label for="email">E-mail</label>
+      <input type="email" name="email" id="email" required>
+    </p>
+    <p><label for="password">Password</label>
+      <input type="password" name="password" id="password" required>
+    </p>
+    <p>
+      <label for="mascota">¿Do you have pet?
+      <p><input type="radio" name="mascota" value="SI"> Si</p>
+      <p><input type="radio" name="mascota" value="NO"> No</p>
+    </label>
+    </p>
+    <p>
+      <label for="hobby">¿What are your hobbies?
+      <p><input type="checkbox" name="hobby" value="Pescar">Pescar</p>
+      <p><input type="checkbox" name="hobby" value="Correr">Correr</p>
+      <p><input type="checkbox" name="hobby" value="Yoga">Yoga</p>
+    </label>
+    </p>
+
+    <p><label for="Seleccione mes">Select month</label>
+      <select name="mes" id="mes">
+        <option value="1">January</option>
+        <option value="2">February</option>
+        <option value="3">March</option>
+        <option value="4">April</option>
+        <option value="5">May</option>
+        <option value="6">June</option>
+        <option value="7">July</option>
+        <option value="8">Agoust</option>
+        <option value="9">September</option>
+        <option value="10">October</option>
+        <option value="11">November</option>
+        <option value="12">December</option>
+      </select>
+    </p>
+
+    <p>
+      <label for="fecha">Select born date</label>
+    <input type="date" name="fecha" id="fecha" min="1930-01-01" max="2025-01-01">
+    </p>
+
+    <p>
+      <label for="comentario">¡Leave us your comments here!</label>
+      <p>
+        <textarea name="comentario" id="comentario" cols="30" rows="10"></textarea>
+        <p>
+          <button type="submit">SEND</button>
+          <button type="reset">RESET</button>
+        </p>
+      </p>
+    </p>
+
+    
+    
+  </form>
+</body>
+</html>
