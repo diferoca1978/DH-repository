@@ -27,7 +27,7 @@ body {
   color: #222222;
   display: inline-block;
   padding: 5px;
-  font-size: 17px;
+  font-size: 14px;
 }
 
 .burger-button {
@@ -37,10 +37,35 @@ body {
   max-width: 30px;
   border-radius: 7px;
   margin: auto;
-  padding: 15px 0;
+  padding: 10px 0;
   text-align: center;
   font-size: 18px;
+}
 
+.make-product {
+  padding: 20px 15px;
+}
+
+.campos {
+  margin-bottom: 15px;
+}
+
+.campos label {
+  margin-bottom: 5px;
+  font-style: italic;
+  display: block;
+}
+
+.campos-control {
+  width: 95%;
+  padding: 8px;
+}
+
+form button {
+  background-color: #EAC926;
+  padding: 0 5px;
+  font-size: 18px;
+  border-radius: 5px;
 }
 
 @media(min-width: 360px) {
@@ -50,9 +75,55 @@ body {
 }
 
 @media(min-width: 768px) {
+ 
+  .top-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+  }
+  .pay {
+    max-width: 300px;
+    text-align: right;
+  }
+  .burger-button {
+    display: none;
+  }
   .nav-bar {
     display: flex;
-    border: solid 2px red;
     justify-content: space-between;
+  }
+  .nav-bar ul {
+    display: flex;
+  }
+  .nav-bar li {
+    margin: 5px;
+  }
+  .nav-bar a {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 1220px) {
+  .top-header, .nav-bar {
+    margin: auto;
+    max-width: 1220px;
+  }
+  .logo {
+    width: 250px;
+  }
+  .nav-bar li {
+    margin: 15px;
+  }
+  .nav-bar a {
+    font-size: 19px;
+  }
+  .nav-bar {
+    margin-top: 20px;
+  }
+  .pay {
+    max-width: none;
+    font-size: 22px;
+    font-weight: 400;
   }
 }

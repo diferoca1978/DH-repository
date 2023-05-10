@@ -6,6 +6,22 @@ header {
   background-color: #EAC926;
 }
 
+header h3 {
+  text-align: center;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+header nav ul li a {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+header nav ul li {
+  text-decoration: none;
+  list-style: none;
+}
+
 .burger-menu {
   background-color: #03264C;
   text-align: center;
@@ -16,33 +32,52 @@ header {
   margin: auto;
 }
 
-footer .center {
-  text-align: center;
-  margin-bottom: 10px;
-}
-
-.pago {
-  text-align: center;
-  font-weight: 400;
-}
-
-.color {
-  color: #1259C3;
-}
-
-p {
-  font-size: 18px;
-}
-
-h2 {
+.based h2 {
   font-size: 24px;
 }
 
-h3 {
-  font-size: 16px;
+.based article p {
+  font-size: 18px;
+  font-weight: bold;
 }
 
-h4 {
-  font-size: 12px;
+.based article h3 {
+  font-size: 16px;
+  font-weight: 400;
 }
+
+.sales h2 {
+  font-size: 24px;
+}
+
+.sales article p {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.sales article h3 {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+footer article h3 {
+  text-align: center;
+  font-size: 16px;
+  
+}
+
+footer article h4 {
+  text-align: center;
+  font-size: 12px;
+  
+}
+
+ .icon-color {
+  color: #1259C3;
+  font-size: 2em;
+
+}
+
+
+
 
