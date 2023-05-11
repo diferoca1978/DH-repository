@@ -3,14 +3,14 @@ body {
 }
 
 .top-navbar {
+  display: flex;
+  flex-direction: row;
   background-color: #264653;
-  padding: 5px;
-}
-
-.main-navbar ul {
-  list-style: none;
+  justify-content: space-around;
+  
 }
 .main-navbar a {
-text-decoration: none;
-color: #fefae0;
+  text-decoration: none;
+  color: #fefae0;
+  padding: 5px 10px;
 }
