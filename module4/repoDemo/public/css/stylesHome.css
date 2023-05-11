@@ -3,14 +3,18 @@ body {
 }
 
 .top-navbar {
+  background-color: #264653;
+  
+}
+.main-navbar ul {
   display: flex;
   flex-direction: row;
-  background-color: #264653;
   justify-content: space-around;
-  
+  list-style: none;
+  padding: 5px 10px;
 }
 .main-navbar a {
   text-decoration: none;
   color: #fefae0;
-  padding: 5px 10px;
+  
 }
