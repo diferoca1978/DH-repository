@@ -3,8 +3,7 @@ body {
 }
 
 .top-navbar {
-  background-color: #264653;
-  
+  background-color: #023047;
 }
 .main-navbar ul {
   display: flex;
@@ -15,6 +14,26 @@ body {
 }
 .main-navbar a {
   text-decoration: none;
-  color: #fefae0;
+  color: #ffb703; 
+}
+.logo {
+  width: 200px;
+}
+.container-menu {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 15px;
+
+}
+.menu-navbar ul {
+  list-style: none;
+  display: flex;
+}
+
+.menu-navbar  li a {
+  color: #023047;
+  padding: 5px 5px 0 0;
+  margin-left: 10px;
+
   
 }
