@@ -1,0 +1,138 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+  background-color: #EAC926;
+}
+
+header h3 {
+  text-align: center;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 400;
+  color: #000000;
+}
+
+header nav ul li {
+  list-style: none;
+}
+
+.burger-menu {
+  background-color: #03264C;
+  text-align: center;
+  color: #ffffff;
+  max-width: 15px;
+  padding: 15px;
+  border-radius: 7px;
+  margin: auto;
+}
+
+img {
+  max-width: 100%;
+}
+
+main {
+  width: 90vw;
+  margin: auto;
+}
+
+.based h2 {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.product {
+  padding: 10px;
+  margin-bottom: 10px;
+  box-sizing: content-box;
+}
+
+.product h3, h4 {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.product article {
+  border-top: solid 1px #ebebeb;
+  padding: 15px;
+}
+
+.product article h3 {
+  color: #0dba24;
+}
+
+.product article i {
+  padding: 15px;
+  border: solid 2px #0dba24;
+  color: #0dba24;
+  border-radius: 60px;
+}
+
+.sales h2 {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+
+footer article {
+  margin-bottom: 10px;
+}
+
+footer article h3 {
+  text-align: center;
+  font-size: 16px;
+  margin-bottom: 0;
+}
+
+footer article h4 {
+  text-align: center;
+  font-size: 12px;
+  margin-top: 0;  
+}
+
+ .icon-color {
+  color: #1259C3;
+  font-size: 2em;
+  margin-bottom: 10px;
+
+}
+  .product h4 {
+    display: none;
+  }
+  header nav {
+    display: none;
+  }
+
+@media(min-width: 361px) {
+  .product h4 {
+    display: block;
+  }
+  .product {
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+  }
+  header nav {
+    display:block;
+  }
+  .burger-menu {
+    display: none;
+  }
+}
+
+
+
+
+
+
