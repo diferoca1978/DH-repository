@@ -1,0 +1,38 @@
+.primero {
+width: 200px;
+border: solid 2px #000000;
+position: relative;
+left: 20px;
+top: 30px;
+text-align: center;
+}
+
+.segundo {
+width: 200px;
+border: solid 2px #000000;
+text-align: center;
+position:absolute;
+right:30px;
+bottom:20px
+}
+
+.contenedor {
+position: relative;
+}
+
+.gorrito {
+width:120px;
+position:absolute;
+left:70px
+}
+
+.gato {
+position: relative;
+top: 60px
+}
+
+.nav-bar {
+  width: 100%;
+  position: fixed;
+  margin-top: 5px;
+}

@@ -1,0 +1,253 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+header {
+  background-color: #EAC926;
+  padding: 10px;
+}
+.top-header {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5%;
+  align-items: center;
+}
+.logo {
+  width: 50%;
+  padding: 15px;
+}
+.search {
+  width: 50%;
+}
+.search input {
+  border-radius: 5px;
+  border: none;
+  width: 100%;
+  height: 30px;
+  font-size: 16px;
+}
+
+header h3 {
+  font-weight: 400;
+  text-align: center;
+  padding: 10px;
+}
+header nav{
+  display: none;
+}
+header nav ul {
+  display: flex;
+  justify-content: space-around;
+  width: 40%;
+}
+header nav ul li {
+  list-style: none;
+}
+header nav ul li a {
+  font-size: 12px;
+  text-decoration: none;
+  color: #000000;
+  padding: 0 5px;
+}
+.burger-menu {
+  background-color: #03264C;
+  color: #ffffff;
+  text-align: center;
+  display: block;
+  max-width: 40px;
+  padding: 5px;
+  border-radius: 8%;
+  margin: 0 auto;
+}
+.banner{
+  width: 100%;
+}
+
+/* Main register form*/
+
+
+#register-form {
+  background-color: #ebebeb;
+  box-sizing: border-box;
+}
+.register {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px 0;
+}
+.text-field {
+padding: 5px;
+margin-bottom: 5px;
+border-radius: 5%;
+}
+.photo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.photo input {
+  border-radius: 5%;
+  margin-bottom: 10px;
+}
+.born-date {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 5%;
+}
+.born-date input {
+  margin-bottom: 10px;
+}
+.user-profile{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.interest div{
+  margin-bottom: 10px;
+}
+.buttons button {
+  background-color: #EAC926;
+  border: solid 1px #000000;
+}
+
+/*main login form*/
+
+#login-form {
+  background-color: #ebebeb;
+  box-sizing: border-box;
+}
+.login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 0;
+}
+.login div {
+  margin: 10px 0;
+}
+.login input {
+  width: 350px;
+  height: 30px;
+  font-size: 18px;
+  outline: none;
+} 
+.login a button{
+  width: 350px;
+  height: 30px;
+  background-color: #1259C3;
+  font-size: 18px;
+  color: #ffffff;
+  border: 1px solid #d3d6e4;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
+
+/*main Home*/
+
+main {
+  margin: 0 auto;
+}
+article {
+  padding: 10px;
+  margin-bottom: 10px;
+  box-sizing: content-box;
+}
+main section article img{
+  width: 100%;
+}
+main section h2 {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+.discount, .description {
+  font-size: 16px;
+  font-weight: 400;
+}
+.discount {
+  color: #0dba24;
+}
+.info-article {
+  border-top: solid 1px #ebebeb;
+  padding: 15px;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+}
+article .info-article i {
+  display: block;
+  font-size: 16px;
+  padding: 5px;
+  width: 30px;
+  height: 30px;
+  color: #39b54a;
+  border: solid 1px #39b54a;
+  background-color: #ffffff;
+  border-radius: 50%;
+  position: absolute;
+  right: 20px;
+  top: -15px;
+}
+.price {
+  width: 30%;
+}
+.discount {
+  width: 70%;
+}
+footer .pay, .delivery, .security h3 {
+  text-align: center;
+  font-size: 18px;
+}
+footer .pay, .delivery, .security h4 {
+  text-align: center;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+.icon-color {
+  color: #1259C3;
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+.product h4 {
+  display: none;
+}
+
+@media(min-width: 361px) {
+  .products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 10px;
+  }
+  main section article {
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    width: 45%;
+  }
+  .top-header {
+    display: flex;
+    justify-content: space-around;
+  }
+  header nav {
+    display: flex;
+    justify-content: space-between;
+  }
+  .burger-menu {
+    display: none;
+  }
+}
+@media(min-width: 769px) {
+  main section article {
+    width: 22.5%;
+  }
+  header nav ul li a {
+    font-size: 18px;
+  }
+}

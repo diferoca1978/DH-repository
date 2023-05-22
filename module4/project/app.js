@@ -4,8 +4,8 @@ const path = require("path");
 
 app.use(express.static("public"));
 
-app.listen(3030, () => {
-  console.log("server running in the port 3030");
+app.listen(3000, () => {
+  console.log("server running in the port 3000");
 });
 
 app.get("/", (req, res) => {
