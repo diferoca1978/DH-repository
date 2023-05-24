@@ -7,6 +7,11 @@
 body {
   font-family: 'Roboto', sans-serif;
 }
+
+/*-----------------------------------
+              HEADER
+-------------------------------------*/
+
 header {
   background-color: #EAC926;
   padding: 10px;
@@ -63,6 +68,11 @@ header nav ul li a {
 .banner{
   width: 100%;
 }
+
+/*-----------------------------------
+              MAIN
+-------------------------------------*/
+
 main {
   width: 90vw;
   margin: 0 auto;
@@ -71,6 +81,7 @@ article {
   padding: 10px;
   margin-bottom: 10px;
   box-sizing: content-box;
+  transition: all 0.5s;
 }
 main section article img{
   width: 100%;
@@ -94,7 +105,7 @@ main section h2 {
   display: flex;
   flex-wrap: wrap;
 }
-article .info-article i {
+.info-article i {
   display: block;
   font-size: 16px;
   padding: 5px;
@@ -107,6 +118,7 @@ article .info-article i {
   position: absolute;
   right: 20px;
   top: -15px;
+  transition: all 0.5s;
 }
 .price {
   width: 30%;
@@ -114,6 +126,17 @@ article .info-article i {
 .discount {
   width: 70%;
 }
+.product h4 {
+  display: none;
+}
+.description {
+  transition: all 0.7s;
+}
+
+/*-----------------------------------
+              FOOTER
+-------------------------------------*/
+
 footer .pay, .delivery, .security h3 {
   text-align: center;
   font-size: 18px;
@@ -128,9 +151,9 @@ footer .pay, .delivery, .security h4 {
   font-size: 2em;
   margin-bottom: 10px;
 }
-.product h4 {
-  display: none;
-}
+
+
+
 
 @media(min-width: 361px) {
   .products {
@@ -140,7 +163,6 @@ footer .pay, .delivery, .security h4 {
     margin-bottom: 10px;
   }
   main section article {
-    box-shadow: 0px 0px 10px rgb(100, 100, 100);
     width: 45%;
   }
   .top-header {
@@ -161,6 +183,18 @@ footer .pay, .delivery, .security h4 {
   }
   header nav ul li a {
     font-size: 18px;
+  }
+  .description {
+    display: none;
+  }
+  article:hover .description {
+    display: block;
+  }
+  article:hover {
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+  }
+  article:hover i {
+    transform: rotate(-90deg);
   }
 }
 

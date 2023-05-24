@@ -1,3 +1,5 @@
+
+/*POSITION RELATIVE AND ABSOLUTE*/
 .primero {
 width: 200px;
 border: solid 2px #000000;
@@ -30,9 +32,66 @@ left:70px
 position: relative;
 top: 60px
 }
-
+/*POSITION FIXED*/
 .nav-bar {
   width: 100%;
+  display: flex;
+  justify-content: space-around;
   position: fixed;
   margin-top: 5px;
+}
+/*Z_INDEX*/
+.box1 {
+  background-color: aqua;
+  border: solid 2px #000000;
+  width: 300px;
+  height: 250px;
+  position: relative;
+  top: 20px;
+}
+.box2 {
+  background-color: blue;
+  border: solid 2px #000000;
+  width: 20px;
+  height: 20px;
+  position: relative;
+  z-index: 10;
+}
+
+/*TRANSITIONS*/
+
+.mi-elemento {
+  width: 100px;
+  height: 100px;
+  transition: all 450ms;
+  background-color: salmon;
+}
+.mi-elemento:hover {
+  border-radius: 50%;
+  background-color: aqua;
+}
+
+/*ANIMATIONS*/
+
+.mi-elemento {
+  width: 200px;
+    height: 200px;
+    position: relative;
+    border-radius: 100%;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-name: achicando;
+    animation-duration: 1000ms;
+}
+@keyframes achicando {
+    0% {
+        background-color: salmon;
+    }
+    
+    100% {
+        background-color: peachpuff;
+        height: 100px;
+        width: 100px;
+        opacity: 0.5;
+    }
 }

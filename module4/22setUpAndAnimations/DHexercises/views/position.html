@@ -9,7 +9,7 @@
 </head>
 <body>
 
-<!--
+<!--POSITION RELATIVE AND ABSOLUTE
 * El primer <div> se ubique 20px a la derecha y 30px hacia abajo de su posición original.
 * El segundo <div> se ubique, en relación al body, a   30px de la derecha y a 20px de abajo.
 
@@ -29,11 +29,12 @@
 </div>
 -->
 
-<!--
+<!--POSITION FIXED
 * Queremos lograr que la barra de navegación esté siempre visible para que la navegabilidad del sitio sea óptima.
 * Para eso debemos ubicar al <ul> con clase "nav-bar" de forma fija a 5px del inicio superior del body y asignarle un width del 100%.
 -->
 
+<!--
 <h2>TARANTINO'S MOVIES</h2>
     <ul class="nav-bar">
         <li><a href="#kill-bill">Kill Bill</a></li>
@@ -69,6 +70,40 @@
     <p>
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias nesciunt impedit reiciendis blanditiis? Minima quia doloribus similique consequuntur eos in aperiam enim ad atque tenetur. Fuga soluta perferendis deserunt. Sequi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam debitis labore similique necessitatibus magni aspernatur. Delectus nobis earum asperiores quam quas, veniam incidunt deserunt repellat laboriosam voluptatem pariatur, quibusdam quos? Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit tenetur temporibus hic, molestias quidem id quisquam perspiciatis repudiandae! Voluptatibus sequi necessitatibus distinctio corporis asperiores excepturi consequatur magnam inventore reiciendis dicta?
     </p>
+    -->
+
+<!-- Z_INDEX
+*debemos mover el <div> con clase "amarillo" 20px desde arriba en relación a su posición original. Una vez que hagamos esos pasos, queremos enviar la respuesta para ver el resultado en el navegador. ¿Qué pasó?
+
+*Pareciera que la caja roja desapareció, pero no es así. Vayamos con el último paso para resolver el ejercicio:
+
+*Deberemos asignarle la propiedad z-index con valor 10 al <div> con clase "rojo". Recordemos declarar también la propiedad position:relative —sin declarar esto, no podemos utilizar z-index—.
+
+    
+    <div class="box1"></div>
+    <div class="box2"></div>
+-->
+
+<!-- TRANSITIONS
+*Vamos a generar una transición al modificar el estilo usando código CSS. La idea es transformar este cuadrado en un círculo (border radius 50%). Para esto, debemos escribir, en el archivo style.css, dos reglas: transition y border-radius. Estas deben de ser agregadas al componente en CSS correspondiente.
+
+todo Importante: 
+* La propiedad transition siempre debe de estar presente en la la regla css que no tiene la propiedad :hover
+
+* Todo los que queremos que sea el efecto se colocan en el componente que contiene el pseudo elemento :hover
+
+<h1 style="">Haz que el cuadrado se transforme en círculo</h1>
+<div class="mi-elemento"></div>
+-->
+
+<!-- 
+    ANIMATIONS
+
+*En el siguiente caso tenemos una animación simple: un círculo que se achica. Pero si ejecutamos el código, vamos a ver que nos faltan algunas reglas de CSS. Las reglas que deberemos agregar son: animation-name y animation-duration. La duración de la animación deberá de ser 1000ms.
+-->
+
+<h1 style="">Haz que el cuadrado se transforme en círculo</h1>
+<div class="mi-elemento"></div>
 
 
 </body>
