@@ -156,6 +156,7 @@ main section h2 {
     text-align: center;
     width: 300px;
     height: 25px;
+    outline-color: #1259C3;
   }
   .photo {
     display: flex;
@@ -248,6 +249,7 @@ main section h2 {
     border: none;
     border-radius: 15px;
     text-align: center;
+    outline-color: #1259C3;
   } 
   .login a button{
     width: 350px;
