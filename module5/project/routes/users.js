@@ -1,12 +1,8 @@
-/*const express = require("espress");
+const express = require("express");
 const router = express.Router();
-const path = require("path");
+const controllers = require("../controllers/usersController");
 
-router.get("/", (req, res) => {
-  res.sendFile(path.resolve("./views/login.html"));
-});
-router.get("/", (req, res) => {
-  res.sendFile(path.resolve("./views/register.html"));
-});
+router.get("/login", controllers.login);
+router.get("/register", controllers.register);
 
-module.exports = router;*/
+module.exports = router;
