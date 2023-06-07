@@ -15,20 +15,13 @@ const controller = {
 
 /* Well EJS even afford us using a second parameter onto the res.render 
 and it can be an object literal that have the task to send the data 
-that we can show in the view */
+we can show in the view */
 
-let movies = ["The king speech", "Untouchable", "American underdog"];
-
-const controller = {
+module.exports = {
   index: (req, res) => {
     res.render("index");
   },
-  showMovies: (req, res) => {
-    res.render("movies", {
-      list: movies,
-      gender: "Biographical",
-    });
+  menu: (req, res) => {
+    res.render("detalleMenu");
   },
 };
-
-module.exports = controller;
