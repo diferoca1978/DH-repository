@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <%- include('./partials/head', {title: "Home"})%>
+  <body>
+    <%- include('./partials/header')%>
+
+    <form method="POST" action="/products/<%= plato.id %>?_method=PUT">
+      <input name="name" placeholder="nombre" type="text" value="<%= plato.nombre %>">
+      <input name="desc" placeholder="descripcion" type="text" value="<%= plato.detalle %>">
+      <input name="price" placeholder="precio" type="number" value="<%= plato.precio %>">
+      <button type="submit">EDITAR</button> 
+    </form>
+
+    <form method="POST" action="/products/<%= plato.id %>?_method=DELETE">
+      <button type="submit">BORRAR</button> 
+    </form>
+
+    <%- include('./partials/footer')%>
+  </body>
+</html>

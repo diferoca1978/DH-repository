@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <%- include('./partials/head', {title: "Home"})%>
+  <body>
+    <%- include('./partials/header')%>
+
+    <form method="POST" action="/products" enctype="multipart/form-data">
+        <input name="name" placeholder="nombre" type="text">
+        <input name="desc" placeholder="descripcion" type="text">
+        <input name="price" placeholder="precio" type="number">
+        <input name="image" type="file">
+        <button type="submit">SUBMIT</button> 
+    </form>
+
+    <%- include('./partials/footer')%>
+  </body>
+</html>

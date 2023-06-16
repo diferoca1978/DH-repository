@@ -1,0 +1,10 @@
+
+● /products/edit/:id
+○ Botón MODIFICAR: modificará al producto correspondiente en la base de
+datos JSON.
+
+● /products/
+○ Deberá recibir los datos del formulario de edición.
+
+● /products/:id
+○ Botón BORRAR: eliminará al producto de la base de datos JSON.

@@ -1,0 +1,45 @@
+[
+  {
+    "id": 1,
+    "nombre": "Carpaccio fresco",
+    "detalle": "Entrada Carpaccio de salmón con cítricos",
+    "precio": 65.5,
+    "borrado": false
+  },
+  {
+    "id": 2,
+    "nombre": "Risotto de berenjena",
+    "detalle": "Risotto de berenjena y queso de cabra",
+    "precio": 47,
+    "borrado": false
+  },
+  {
+    "id": 3,
+    "nombre": "Mousse de arroz",
+    "detalle": "Mousse de arroz con leche y aroma de azahar",
+    "precio": 27.5,
+    "borrado": true
+  },
+  {
+    "id": 4,
+    "nombre": "Espárragos blancos",
+    "detalle": "Espárragos blancos con vinagreta de verduras y jamón ibérico",
+    "precio": 37.5,
+    "borrado": false
+  },
+  {
+    "id": 5,
+    "nombre": "ñoquis",
+    "detalle": "de papa",
+    "precio": "60",
+    "borrado": true
+  },
+  {
+    "id": 6,
+    "nombre": "Lemon Pie",
+    "detalle": "tarta de limon",
+    "precio": "30",
+    "img": "1686793699154.jpg",
+    "borrado": false
+  }
+]
