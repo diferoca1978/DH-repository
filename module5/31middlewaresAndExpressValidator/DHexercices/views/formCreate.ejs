@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <%- include('./partials/head', {title: "Home"})%>
+  <body>
+    <%- include('./partials/header')%>
+
+    <h1>Crea un producto</h1>
+    <!-- Important: all data that we pass through of an object to the view come inside the object called locals, So if locals.error exist execute the loop forEach and show the error message in the view. Also with this we can avoid the throw error when we want to go to the route /products/create by get-->
+    <% if (locals.error) { error.forEach(row => { %>
+    <p><%= row.msg %></p>
+    <% }); } %>
+    <form method="POST" action="/products" enctype="multipart/form-data">
+      <div>
+        <input
+          name="name"
+          placeholder="nombre"
+          type="text"
+          value="<%= locals.old && old.name ? old.name : '' %>"
+        />
+        <!-- This line above is part of the process to keep the data in the field-->
+      </div>
+      <div>
+        <input
+          name="desc"
+          placeholder="descripcion"
+          type="text"
+          value="<%= locals.old && old.desc ? old.desc : '' %>"
+        />
+      </div>
+      <div>
+        <input
+          name="price"
+          placeholder="precio"
+          type="number"
+          value="<%= locals.old && old.price ? old.price : '' %>"
+        />
+      </div>
+      <div><input name="image" type="file" /></div>
+      <div><button type="submit">SUBMIT</button></div>
+    </form>
+
+    <%- include('./partials/footer')%>
+  </body>
+</html>

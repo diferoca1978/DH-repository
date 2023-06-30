@@ -1,1 +1,0 @@
-created a new register through the page/register
