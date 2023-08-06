@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "nombre": "John",
+    "apellidos": "Doe",
+    "email": "johndoe@example.com",
+    "contraseña": "password123",
+    "categoria": "cliente",
+    "imagen": "https://example.com/images/johndoe.jpg",
+    "tipo_identificacion": "DNI",
+    "numero_identificacion": "12345678",
+    "celular": "1234567890"
+  },
+  {
+    "id": 2,
+    "nombre": "Jane",
+    "apellidos": "Smith",
+    "email": "janesmith@example.com",
+    "contraseña": "password456",
+    "categoria": "cliente",
+    "imagen": "https://example.com/images/janesmith.jpg",
+    "tipo_identificacion": "DNI",
+    "numero_identificacion": "87654321",
+    "celular": "0987654321"
+  },
+  {
+    "id": 3,
+    "nombre": "Michael",
+    "apellidos": "Johnson",
+    "email": "michaeljohnson@example.com",
+    "contraseña": "password789",
+    "categoria": "cliente",
+    "imagen": "https://example.com/images/michaeljohnson.jpg",
+    "tipo_identificacion": "DNI",
+    "numero_identificacion": "98765432",
+    "celular": "7654321098"
+  },
+  {
+    "id": 4,
+    "nombre": "Emily",
+    "apellidos": "Davis",
+    "email": "emilydavis@example.com",
+    "contraseña": "passwordabc",
+    "categoria": "cliente",
+    "imagen": "https://example.com/images/emilydavis.jpg",
+    "tipo_identificacion": "DNI",
+    "numero_identificacion": "23456789",
+    "celular": "5432109876"
+  },
+  {
+    "id": 5,
+    "nombre": "Daniel",
+    "apellidos": "Wilson",
+    "email": "danielwilson@example.com",
+    "contraseña": "passworddef",
+    "categoria": "cliente",
+    "imagen": "https://example.com/images/danielwilson.jpg",
+    "tipo_identificacion": "DNI",
+    "numero_identificacion": "87654329",
+    "celular": "2109876543"
+  }
+]

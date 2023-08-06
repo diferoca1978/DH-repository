@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <%- include('./partials/head', {title: "Home"})%>
+  <body>
+    <%- include('./partials/header')%>
+
+    <h1>Ingresa</h1>
+    <!-- Important: all data that we pass through of an object to the view come inside the object called locals, So if locals.error exist execute the loop forEach and show the error message in the view. Also with this we can avoid the throw error when we want to go to the route /products/create by get-->
+    <% if (locals.error) { error.forEach(row => { %>
+    <p><%= row.msg %></p>
+    <% }); } %>
+    <form method="POST" action="/login" enctype="multipart/form-data">
+      <div>
+        <input
+          name="email"
+          placeholder="Email"
+          type="email"
+          value="<%= locals.old && old.email ? old.email : '' %>"
+        />
+        <!-- This line above is part of the process to keep the data in the field-->
+      </div>
+      <div>
+        <input
+          name="pass"
+          placeholder="Password"
+          type="text"
+          value="<%= locals.old && old.pass ? old.pass : '' %>"
+        />
+      </div>
+      <div><button type="submit">SUBMIT</button>Login</div>
+    </form>
+
+    <%- include('./partials/footer')%>
+  </body>
+</html>
