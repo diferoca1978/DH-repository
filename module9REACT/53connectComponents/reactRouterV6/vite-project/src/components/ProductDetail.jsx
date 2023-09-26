@@ -1,13 +1,35 @@
-import React from 'react';
-import { useParams } from 'react-router-dom';
+import { useState, useEffect } from 'react';
+import Axios from 'axios';
+import { Link, useParams } from 'react-router-dom';
 
 function ProductDetail() {
-  const { Id } = useParams();
+  const [product, setProduct] = useState(null);
+
+  const { id } = useParams();
+
+  useEffect(() => {
+    Axios.get(`https://dummyjson.com/products/${id}`).then((res) =>
+      setProduct(res.data)
+    );
+  }, [id]);
 
   return (
-    <div>
-      <h3>Este es el detalle del producto N° {Id} </h3>
-    </div>
+    <>
+      {!product && <em>Loading...</em>}
+      {product && (
+        <div>
+          <h3>Este es el detalle del producto N° {id} </h3>
+          <h4>Title: {product.title}</h4>
+          <img src={product.thumbnail} alt="{product.title}" width="200" />
+          <p>Category: {product.category} </p>
+          <p>Description: {product.description} </p>
+          <p>
+            <strong>Price: {product.price} </strong>
+          </p>
+          <Link to="/products">Volver a la lista de productos</Link>
+        </div>
+      )}
+    </>
   );
 }
 
